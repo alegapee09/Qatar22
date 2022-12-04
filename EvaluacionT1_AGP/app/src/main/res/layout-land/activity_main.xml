@@ -11,7 +11,7 @@
         android:id="@+id/btnRegistro"
         style="@style/Estilo_default_botones"
         android:layout_below="@+id/imageView"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:text="@string/registrar" />
 
     <Button

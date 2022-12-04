@@ -39,10 +39,9 @@
     <Button
         android:id="@+id/btnSelectPrimerPais"
         style="@style/Estilo_btn_select"
-        android:layout_width="401dp"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
         android:layout_below="@+id/etFase"
-        android:layout_alignRight="@+id/etprimEq"
+        android:layout_toRightOf="@+id/etprimEq"
         android:layout_marginRight="-410dp"
         android:text="@string/seleccionar" />
 
@@ -58,10 +57,9 @@
     <Button
         android:id="@+id/btnSelectSegPais"
         style="@style/Estilo_btn_select"
-        android:layout_width="400dp"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
         android:layout_below="@+id/btnSelectPrimerPais"
-        android:layout_alignRight="@+id/etsegEq"
+        android:layout_toRightOf="@+id/etsegEq"
         android:layout_marginRight="-411dp"
         android:text="@string/seleccionar" />
 
