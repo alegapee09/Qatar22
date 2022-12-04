@@ -56,4 +56,6 @@
     <string name="introequipos">Por favor, introduzca dos equipos válidos</string>
     <string name="introgoles">Por favor, introduzca los goles del partido</string>
     <string name="todoOKJoseLuis">DATOS GUARDADOS CORRECTAMENTE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -56,4 +56,18 @@
         <item name="android:background">@android:color/transparent</item>
         <item name="android:layout_weight">1</item>
     </style>
+    <style name="Estilo_layouts_frag" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+    <style name="Estilo_rows" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="Estilo_controws_default" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">""</item>
+    </style>
 </resources>

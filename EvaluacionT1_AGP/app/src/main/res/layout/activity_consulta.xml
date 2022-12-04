@@ -21,11 +21,55 @@
         android:hint="@string/intropais" />
 
     <Button
-        android:id="@+id/btnSelectPrimerPais"
+        android:id="@+id/btnfiltrarPais"
         style="@style/Estilo_btn_select"
         android:layout_alignRight="@+id/etpaisacons"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="20dp"
         android:layout_below="@+id/strIntroCons"
         android:text="@string/seleccionar" />
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        style="@style/Estilo_layouts_frag"
+        android:layout_below="@+id/etpaisacons">
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frame2"
+        style="@style/Estilo_layouts_frag"
+        android:layout_below="@+id/frame1">
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frame3"
+        style="@style/Estilo_layouts_frag"
+        android:layout_below="@+id/frame2">
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frame4"
+        style="@style/Estilo_layouts_frag"
+        android:layout_below="@+id/frame3">
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frame5"
+        style="@style/Estilo_layouts_frag"
+        android:layout_below="@+id/frame4">
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frame6"
+        style="@style/Estilo_layouts_frag"
+        android:layout_below="@+id/frame5">
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frame7"
+        style="@style/Estilo_layouts_frag"
+        android:layout_below="@+id/frame6">
+
+    </FrameLayout>
+
 </RelativeLayout>
