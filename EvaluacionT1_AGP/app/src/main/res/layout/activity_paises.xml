@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margen"
+    tools:context=".PaisesActivity">
+
+    <TextView
+        android:id="@+id/strSelEq"
+        style="@style/Estilo_default_escrito"
+        android:layout_marginTop="10dp"
+        android:text="@string/SelEq"/>
+<LinearLayout
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="50dp">
+    <Button
+        android:id="@+id/btnale"
+        style="@style/Estilo_paises"
+        android:layout_weight="2.2"
+        android:text="@string/ale" />
+    <Button
+        android:id="@+id/btnara"
+        style="@style/Estilo_paises"
+        android:layout_weight="0.7"
+        android:text="@string/ara" />
+    <Button
+        android:id="@+id/btnarg"
+        style="@style/Estilo_paises"
+        android:layout_weight="2.2"
+        android:text="@string/arg" />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnaus"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/aus" />
+        <Button
+            android:id="@+id/btnbel"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/bel" />
+        <Button
+            android:id="@+id/btnbra"
+            style="@style/Estilo_paises"
+            android:layout_weight="1.15"
+            android:text="@string/bras"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_below="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/btncam"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/cam" />
+        <Button
+            android:id="@+id/btncan"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/can" />
+        <Button
+            android:id="@+id/btncor"
+            style="@style/Estilo_paises"
+            android:layout_weight="0.3"
+            android:text="@string/cor" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_below="@+id/layout3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true">
+    <Button
+        android:id="@+id/btncos"
+        style="@style/Estilo_paises"
+        android:layout_weight="0.75"
+        android:text="@string/cos" />
+    <Button
+        android:id="@+id/btncro"
+        style="@style/Estilo_paises"
+        android:layout_weight="1.2"
+        android:text="@string/cro" />
+    <Button
+        android:id="@+id/btndin"
+        style="@style/Estilo_paises"
+        android:layout_weight="0.9"
+        android:text="@string/din" />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout5"
+        android:layout_below="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btnecu"
+            style="@style/Estilo_paises"
+            android:layout_width="108dp"
+            android:layout_weight="5"
+            android:text="@string/ecu" />
+        <Button
+            android:id="@+id/btnesp"
+            style="@style/Estilo_paises"
+            android:layout_weight="10"
+            android:text="@string/esp" />
+
+        <Button
+            android:id="@+id/btnusa"
+            style="@style/Estilo_paises"
+            android:layout_width="wrap_content"
+            android:layout_weight="-1"
+            android:text="@string/usa" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout6"
+        android:layout_below="@+id/layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/btnfra"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/fra" />
+        <Button
+            android:id="@+id/btngal"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/gal" />
+        <Button
+            android:id="@+id/btngha"
+            style="@style/Estilo_paises"
+            android:layout_weight="1.1"
+            android:text="@string/gha" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout7"
+        android:layout_below="@+id/layout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/btnhol"
+            style="@style/Estilo_paises"
+            android:layout_weight="0.95"
+            android:text="@string/hol" />
+        <Button
+            android:id="@+id/btning"
+            style="@style/Estilo_paises"
+            android:layout_weight="0.8"
+            android:text="@string/ing" />
+        <Button
+            android:id="@+id/btnira"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/ira" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout8"
+        android:layout_below="@+id/layout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/btnjap"
+            style="@style/Estilo_paises"
+            android:layout_weight="1.2"
+            android:text="@string/jap" />
+
+        <Button
+            android:id="@+id/btnmar"
+            style="@style/Estilo_paises"
+            android:layout_weight="0.8"
+            android:text="@string/mar" />
+        <Button
+            android:id="@+id/btnmex"
+            style="@style/Estilo_paises"
+            android:layout_weight="1.2"
+            android:text="@string/mex" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout9"
+        android:layout_below="@+id/layout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/btnpol"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/pol" />
+        <Button
+            android:id="@+id/btnpor"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/por" />
+        <Button
+            android:id="@+id/btnqat"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/qat" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout10"
+        android:layout_below="@+id/layout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/btnsen"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/sen" />
+        <Button
+            android:id="@+id/btnser"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/ser" />
+        <Button
+            android:id="@+id/btnsui"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/sui" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout11"
+        android:layout_below="@+id/layout10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/btntun"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/tun" />
+        <Button
+            android:id="@+id/btnuru"
+            style="@style/Estilo_paises"
+            android:layout_weight="1"
+            android:text="@string/uru" />
+        <Button
+            style="@style/Estilo_paises"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etEqSelec"
+        style="@style/Estilo_equipo_selec"
+        android:layout_below="@+id/layout11"
+        android:hint="@string/hintEqSelec"/>
+
+
+    <Button
+        android:id="@+id/btnaccept"
+        style="@style/Estilo_default_botones"
+        android:layout_width="177sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEqSelec"
+        android:text="@string/acept" />
+
+    <Button
+        android:id="@+id/btncanc"
+        style="@style/Estilo_default_botones"
+        android:layout_width="177sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEqSelec"
+        android:layout_alignParentEnd="true"
+        android:text="@string/cancel" />
+
+
+</RelativeLayout>

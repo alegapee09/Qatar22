@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margen"
+    tools:context=".PaisesActivity">
+
+    <TextView
+        android:id="@+id/strSelEq"
+        style="@style/Estilo_default_escrito"
+        android:layout_marginTop="10dp"
+        android:text="@string/SelEq"/>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/strSelEq">
+
+        <Button
+            android:id="@+id/btnale"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/ale" />
+
+        <Button
+            android:id="@+id/btnara"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/ara" />
+
+        <Button
+            android:id="@+id/btnarg"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/arg" />
+
+        <Button
+            android:id="@+id/btnaus"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/aus" />
+
+        <Button
+            android:id="@+id/btnbel"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/bel" />
+
+        <Button
+            android:id="@+id/btnbra"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/bras" />
+
+        <Button
+            android:id="@+id/btncam"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/cam" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btncan"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/can" />
+
+        <Button
+            android:id="@+id/btncor"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/cor" />
+
+        <Button
+            android:id="@+id/btncos"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/cos" />
+        <Button
+            android:id="@+id/btncro"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/cro" />
+
+        <Button
+            android:id="@+id/btndin"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/din" />
+
+        <Button
+            android:id="@+id/btnecu"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/ecu" />
+        <Button
+            android:id="@+id/btnesp"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/esp" />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_below="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnusa"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/usa" />
+
+        <Button
+            android:id="@+id/btnfra"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/fra" />
+
+        <Button
+            android:id="@+id/btngal"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/gal" />
+        <Button
+            android:id="@+id/btngha"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/gha" />
+        <Button
+            android:id="@+id/btnhol"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/hol" />
+        <Button
+            android:id="@+id/btning"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/ing" />
+        <Button
+            android:id="@+id/btnira"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/ira" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_below="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnjap"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/jap" />
+
+        <Button
+            android:id="@+id/btnmar"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/mar" />
+        <Button
+            android:id="@+id/btnmex"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/mex" />
+        <Button
+            android:id="@+id/btnpol"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/pol" />
+        <Button
+            android:id="@+id/btnpor"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/por" />
+        <Button
+            android:id="@+id/btnqat"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/qat" />
+        <Button
+            android:id="@+id/btnsen"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/sen" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout5"
+        android:layout_below="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="7">
+        <Button
+            android:id="@+id/btnser"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/ser" />
+        <Button
+            android:id="@+id/btnsui"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/sui" />
+        <Button
+            android:id="@+id/btntun"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/tun" />
+        <Button
+            android:id="@+id/btnuru"
+            style="@style/Estilo_paises_tumbados"
+            android:text="@string/uru" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etEqSelec"
+        style="@style/Estilo_equipo_selec"
+        android:layout_below="@+id/layout5"
+        android:hint="@string/hintEqSelec"/>
+
+
+    <Button
+        android:id="@+id/btnaccept"
+        style="@style/Estilo_default_botones"
+        android:layout_width="177sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEqSelec"
+        android:text="@string/acept" />
+
+    <Button
+        android:id="@+id/btncanc"
+        style="@style/Estilo_default_botones"
+        android:layout_width="177sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etEqSelec"
+        android:layout_alignParentEnd="true"
+        android:text="@string/cancel" />
+
+
+</RelativeLayout>

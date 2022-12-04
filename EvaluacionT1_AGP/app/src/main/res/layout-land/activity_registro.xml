@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margen"
+    tools:context=".RegistroActivity">
+
+
+    <TextView
+        android:id="@+id/strIntro"
+        style="@style/Estilo_default_escrito"
+        android:layout_marginTop="18dp"
+        android:text="@string/Introducir" />
+
+    <EditText
+        android:id="@+id/etFecha"
+        style="@style/Estilo_default_edits"
+        android:layout_below="@+id/strIntro"
+        android:inputType="datetime"
+        android:hint="@string/hintFecha" />
+
+    <EditText
+        android:id="@+id/etFase"
+        style="@style/Estilo_default_edits"
+        android:layout_below="@+id/etFecha"
+        android:hint="@string/hintfase" />
+
+    <EditText
+
+        android:id="@+id/etprimEq"
+        style="@style/Estilo_default_edits"
+        android:layout_width="446dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etFase"
+        android:hint="@string/hintequno" />
+
+    <Button
+        android:id="@+id/btnSelectPrimerPais"
+        style="@style/Estilo_btn_select"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etFase"
+        android:layout_alignRight="@+id/etprimEq"
+        android:layout_marginRight="-410dp"
+        android:text="@string/seleccionar" />
+
+    <EditText
+        android:id="@+id/etsegEq"
+        style="@style/Estilo_default_edits"
+        android:layout_width="445dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etprimEq"
+        android:layout_marginTop="0dp"
+        android:hint="@string/hintedos" />
+
+    <Button
+        android:id="@+id/btnSelectSegPais"
+        style="@style/Estilo_btn_select"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSelectPrimerPais"
+        android:layout_alignRight="@+id/etsegEq"
+        android:layout_marginRight="-411dp"
+        android:text="@string/seleccionar" />
+
+    <EditText
+        android:id="@+id/etgolesprimEq"
+        style="@style/Estilo_edits_goles"
+        android:layout_width="348dp"
+        android:layout_below="@+id/btnSelectSegPais"
+        android:hint="@string/hintgolesuno"
+        android:textAlignment="center"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/strguion"
+        style="@style/Estilo_default_escrito"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnSelectSegPais"
+        android:text="@string/guion" />
+
+    <EditText
+        android:id="@+id/etgolessegEq"
+        style="@style/Estilo_edits_goles"
+        android:layout_width="348dp"
+        android:layout_below="@+id/btnSelectSegPais"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/strguion"
+        android:textAlignment="center"
+        android:hint="@string/hintgolesdos"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnGuardarDatos"
+        style="@style/Estilo_default_botones"
+        android:layout_width="450dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/btnLimpiarDatos"
+        style="@style/Estilo_default_botones"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/btnGuardarDatos"
+        android:text="@string/limpiar" />
+
+</RelativeLayout>
